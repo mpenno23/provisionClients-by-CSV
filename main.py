@@ -53,5 +53,4 @@ if __name__ == '__main__':
 
     #loop through each client and call provisionNetworkClients
     for i in range(length):
-        print(clients[i])
         dashboard.networks.provisionNetworkClients(network_id, clients[i], device_policy)
