@@ -51,8 +51,6 @@ if __name__ == '__main__':
     #set length of loop
     length = len(clients)
 
-    print(clients)
-
     #loop through each client and call provisionNetworkClients
     for i in range(length):
         print(clients[i])
